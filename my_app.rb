@@ -1,5 +1,5 @@
 class MyApp
   def call(env)
-    [200, {"Content-Type" => "text/plain"}, ["Hello. The time is #{Time.now}"]]
+    [200, {"Content-Type" => "text/html"}, ["Hello Rack Participants"]]
   end
 end
